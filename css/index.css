@@ -486,7 +486,7 @@ body {
 }
 
 .horarios__contenedor-texto {
-  width: 50%;
+  flex: 1;
   background-color: var(--color-secundario);
   border-radius: var(--border-radious-m);
   margin: 0 auto var(--margin-l);
@@ -507,7 +507,7 @@ body {
 }
 
 .horarios__contendor-img {
-  width: 50%;
+  flex: 1;
   height: auto;
   display: flex;
   justify-content: center;
@@ -900,6 +900,9 @@ body {
 
   .destacado {
     grid-template-columns: 1fr;
+  }
+  .horarios {
+    flex-flow: column-reverse;
   }
 }
 

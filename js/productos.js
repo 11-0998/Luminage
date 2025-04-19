@@ -8,7 +8,7 @@ const productos = [
         stock: 10,
         descripcion: 
         'Hermosa vela en forma de corazón, disponible en cualquier fragancia de stock, su color es blanco y la decoración es sutil y elegante con flores.',
-        imgSrc: '../assets/corazon.webp',
+        imgSrc: 'https://raw.githubusercontent.com/11-0998/luminage/refs/heads/main/assets/corazon.webp',
         destacado: false,
     },
     {
@@ -18,7 +18,7 @@ const productos = [
         stock: 15,
         descripcion: 
         'Aromatizantes para lenceria del hogar, aromas variados que te permiten crear espacios únicos  ',
-        imgSrc: '../assets/home_spray.webp', 
+        imgSrc: 'https://raw.githubusercontent.com/11-0998/luminage/refs/heads/main/assets/home_spray.webp', 
         destacado: false,
 
     },
@@ -29,7 +29,7 @@ const productos = [
         stock: 5,
         descripcion: 
         'Cuatro velas con tematica navideña, Aromas: Naranja, canela manzana, pino verder y cupcake. Incluye empaque y tarjeta navideña',
-        imgSrc: '../assets/dulce_navidad.webp', 
+        imgSrc: 'https://raw.githubusercontent.com/11-0998/luminage/refs/heads/main/assets/dulce_navidad.webp', 
         destacado: true,
 
     },
@@ -40,7 +40,7 @@ const productos = [
         stock: 10,
         descripcion: 
         'Nuestro kit amor incluye 2 velas a elecion ( 1 vela corazón y 1 molde pequeña a elección), un Spay home y nuestros Wax metls.',
-        imgSrc: '../assets/kit_amor.webp', 
+        imgSrc: 'https://raw.githubusercontent.com/11-0998/luminage/refs/heads/main/assets/kit_amor.webp', 
         destacado: false,
 
     },
@@ -51,7 +51,7 @@ const productos = [
         stock: 25,
         descripcion: 
         'Colores: blanco, verde, rojo y amarillo. Aromas: Canela manzana y Pino verde. Incluye empaque y tarjeta.',
-        imgSrc: '../assets/mini_arbol.webp', 
+        imgSrc: 'https://raw.githubusercontent.com/11-0998/luminage/refs/heads/main/assets/mini_arbol.webp', 
         destacado: false,
 
     },
@@ -62,7 +62,7 @@ const productos = [
         stock: 3,
         descripcion: 
         'Pebetero perfecto para decorar tus espacios y llenarlos de un suave aroma. Incluye Wax melts de aromas variados',
-        imgSrc: '../assets/pebetero.webp',
+        imgSrc: 'https://raw.githubusercontent.com/11-0998/luminage/refs/heads/main/assets/pebetero.webp',
         destacado: false,
 
     },
@@ -73,7 +73,7 @@ const productos = [
         stock: 10,
         descripcion: 
         'Vela en forma de peonia. Colores: variados disponibles en stock. Aromas: según stock. Incluye empaque y tarjeta.',
-        imgSrc: '../assets/peonia.webp',
+        imgSrc: 'https://raw.githubusercontent.com/11-0998/luminage/refs/heads/main/assets/peonia.webp',
         destacado: true,
 
     },
@@ -84,7 +84,7 @@ const productos = [
         stock: 15,
         descripcion: 
         'Vela en forma de sagrada familia. Colores: blanco. Aromas: Según stock. Incluye empaque y tarjeta.',
-        imgSrc: '../assets/sagrada_familia.webp',
+        imgSrc: 'https://raw.githubusercontent.com/11-0998/luminage/refs/heads/main/assets/sagrada_familia.webp',
         destacado: true,
 
     },
@@ -95,7 +95,7 @@ const productos = [
         stock: 35,
         descripcion: 
         'Recipiente con Wax Melts de varios tanto de colores y aromas.',
-        imgSrc: '../assets/wax_melts.webp',
+        imgSrc: 'https://raw.githubusercontent.com/11-0998/luminage/refs/heads/main/assets/wax_melts.webp',
         destacado: false,
 
     }

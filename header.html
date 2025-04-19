@@ -1,0 +1,69 @@
+<div class="header__contenedor">
+    <div class="header_logo">
+        <img class="logo" src="assets/logo_negro.png" alt="Logo Luminage">
+    </div>
+    <nav class="header_nav">
+        <!-- menu hamburguesa -->
+        <ul class="header_menu header_menu-hmb">
+            <!-- iconoc de cerrar -->
+            <li onclick= ocultarMenu() class="header_item">
+                <a class="header__a header__a-cerrar" href="#">
+                    <svg class="header__a-cerrar" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" class="bi bi-list" viewBox="0 0 16 16">
+                        <use xlink:href="#cerrar"/>
+                    </svg>
+                </a>
+            </li>
+            <li class="header_item">
+                <a class="header__a" href="index.html">INICIO</a>
+            </li>
+
+            <!-- Enlace página de catálogo -->
+            <li class="header_item">  
+                <a class="header__a" href="catalogo.html">CATÁLOGO</a>
+            </li>
+
+            <!-- Enlace página de contacto -->
+            <li class="header_item">
+                <a class="header__a" href="contacto.html">CONTACTO</a>
+            </li>
+        </ul>
+
+        <!-- menu -->
+        <ul class="header_menu">
+            <li class="header_item ocultarEnMobil">
+                <a class="header__a" href="index.html">INICIO</a>
+            </li>
+
+            <!-- Enlace página de catálogo -->
+            <li class="header_item ocultarEnMobil">  
+                <a class="header__a" href="catalogo.html">CATÁLOGO</a>
+            </li>
+
+            <!-- Enlace página de contacto -->
+            <li class="header_item ocultarEnMobil">
+                <a class="header__a" href="contacto.html">CONTACTO</a>
+            </li>
+            <!-- checkout -->
+            <li class="header_item ocultarEnMobil">
+                <a href="checkout.html" class="cart__checkout-btn">CHECKOUT</a>
+            </li>
+
+            <li onclick=mostrarCart() class="header_item">
+                <a class="header__a" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                        <use xlink:href="#cart"/>
+                    </svg>
+                    <div class="items-en-carrito">0</div>
+                </a>
+            </li>
+            <!-- icono de menu hamurgesa -->
+            <li onclick=mostrarMenu() class="header_item boton__menu">
+                <a class="header__a" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="black" class="bi bi-list" viewBox="0 0 16 16">
+                        <use xlink:href="#menu"/>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>

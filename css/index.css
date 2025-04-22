@@ -432,7 +432,7 @@ body {
     transform: translate(-150%, 10%);
   }
 }
-@keyframes despalzarDer {
+@keyframes desplazarDer {
   from {
     transform: translate(-50%, -50%);
   }

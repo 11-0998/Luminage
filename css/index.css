@@ -441,14 +441,11 @@ body {
   }
 }
 
-.img-1 {
-  animation: desplazarIzq ease;
-  animation-timeline: view();
+.img-1.animar-izq {
+  animation: desplazarIzq 2s ease forwards;
 }
-
-.img-2 {
-  animation: despalzarDer ease;
-  animation-timeline: view();
+.img-2.animar-der {
+  animation: desplazarDer 2s ease forwards;
 }
 
 /* Pagina Catálogo de productos */

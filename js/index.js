@@ -1,7 +1,13 @@
 'use strict'
 
 const menuHmb = document.querySelector('.header_menu-hmb');
-const elementosOcultos = document.querySelectorAll('.oculto');
+
+// Elementos generales y los destacados
+const elementosOcultos = document.querySelectorAll('.oculto, .img-1, .img-2');
+
+// Seleccionamos las imagenes de destacados
+const imgIzq = document.querySelector('.img-1');
+const imgDer = document.querySelector('.img-2');
 
 
 // Menu hamburguesa
@@ -20,18 +26,23 @@ function ocultarMenu() {
 
 
 // observador para animaciones
-const observador = new IntersectionObserver((entradas) =>{
+const observador = new IntersectionObserver((entradas) => {
     entradas.forEach((entrada) => {
-        if(entrada.isIntersecting){
-            //agrega clase para para mostrar elemento
-            entrada.target.classList.add('show');
-        } else {
-            entrada.target.classList.remove('show');
-            
+      if (entrada.isIntersecting) {
+        entrada.target.classList.add('show');
+  
+        // Añade animaciones a las imagenes
+        if (entrada.target.classList.contains('img-1')) {
+          entrada.target.classList.add('animar-izq');
+        } else if (entrada.target.classList.contains('img-2')) {
+          entrada.target.classList.add('animar-der');
         }
-    })
-});
+        // Para reiniciar
+      } else {
+        entrada.target.classList.remove('show');
+        entrada.target.classList.remove('animar-izq', 'animar-der'); 
+      }
+    });
+  });
 
-
-// hacemos que el observador observe todos los elementos
 elementosOcultos.forEach((el) => observador.observe(el));
